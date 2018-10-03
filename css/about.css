@@ -1,0 +1,27 @@
+.aboutMeHeader{
+    font-size: 50px;
+    padding-top: 10px;
+}
+
+.col-12 {
+    background: var(--purple);
+    color: white;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    font-family: var(--font-four);
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.info {
+    text-align: center;
+    font-family: var(--font-four);
+    font-size: 30px;
+    color: white;
+    margin-top: 0;
+}
+
+.info a{
+    color: rgb(0,180,98);
+}

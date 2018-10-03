@@ -1,0 +1,40 @@
+#projectPic {
+    overflow: hide;
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+}
+
+.containerProjects {
+    background-color: white;
+    height: 300px;
+    width: 100%;
+    margin-top: 0;
+}
+
+#firstProject{
+    margin-top: 55px;
+    text-align: center;
+}
+
+#firstProject a{
+    color: #6a00b2;
+}
+
+#secondProject{
+    text-align: center;
+    margin-top: 55px;
+}
+
+#secondProject a{
+    color: #6a00b2;
+}
+
+#thirdProject{
+    margin-top: 55px;
+    text-align: center;
+}
+
+#thirdProject a{
+    color: #6a00b2;
+}

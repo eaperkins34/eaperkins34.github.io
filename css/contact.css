@@ -1,0 +1,60 @@
+#contactForm {
+    margin-top: 28%;
+    font-family: var(--font-four);
+    text-align: left;
+}
+
+#name{
+    width: 100%;
+    position: relative;
+}
+
+.containerContact {
+    color: rgb(0,180,98);
+    font-family: var(--font-four);
+    width: 100%;
+}
+
+.control-group {
+    margin-left: 10%;
+}
+
+.formName {
+    width: 10%;
+    float: left;
+    font-size: 25px;
+}
+
+.formEmail {
+    width: 20%;
+    float: left;
+    font-size: 25px;
+}
+
+#email{
+    width: 100%;
+}
+
+.formMessage{
+    width: 100%;
+}
+
+#message{
+    font-size: 25px;
+}
+
+#message1{
+    font-size: 17px;
+    border-radius: 5px;
+}
+section#contact{
+    width: 100%;
+}
+
+#button{
+    margin-bottom: 10%;
+}
+
+#button a:hover {
+    background: rgb(0,180,98);
+}

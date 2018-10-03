@@ -1,0 +1,18 @@
+#jumboStyle {
+    background: url("../assets/lifeinspace.jpeg") no-repeat center;
+    background-size: cover;
+    color: #6a00b2;
+    text-align: center;
+    height: 300px;
+    font-family: var(--font-four);
+    margin-bottom: 0;
+}
+
+#greeting {
+    font-size: 50px;
+}
+
+#myName {
+    font-size: 100px;
+}
+

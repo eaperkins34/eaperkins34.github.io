@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://fonts.googleapis.com/css?family=Give+You+Glory|Indie+Flower|Kodchasan|Shadows+Into+Light" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css" text="type/css">
+    <title>Emily Perkin's Portfolio</title>
+</head>
+<body>
+    <!--nav bar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navStyle">
+                <a class="navbar-brand" href="#" id="navBarStyle">My Portfolio</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav" id="listStyle">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Projects <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://docs.google.com/document/d/1qacK-U01KtsGkb4yYULR5T6bg8SO6WtqhIGoo5gbNp8/edit">Resume</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+    <!--jumbotron-->
+    <div class="jumbotron jumbotron-fluid" id="jumboStyle">
+    <div class="container">
+        <h1 class="display-4" div class="animation slideInLeft" id="myName">Emily Perkins</h1></div>
+        <p class="lead" id="greeting">Welcome to my page, try not to float off.</p>
+    </div>
+    </div>
+    <!-- projects -->
+    <div class="containerProjects">
+        <div class="row">
+            <div class="col-3" id="firstProject">
+                <a href="https://codepen.io/eaperkins34/pen/WgBBjN"><img src="./assets/codepen.jpg" alt="oblina" id="projectPic"><br>Code Pen Creature</a>
+                </div>
+            <div class="col-6" id="secondProject">
+                <a href="https://codepen.io/eaperkins34/pen/WgBBjN"><img src="./assets/codepen.jpg" alt="oblina" id="projectPic"><br>Code Pen Creature</a>
+                </div>
+            <div class="col-3" id="thirdProject">
+                <a href="https://codepen.io/eaperkins34/pen/WgBBjN"><img src="./assets/codepen.jpg" alt="oblina" id="projectPic"><br>Code Pen Creature</a>
+                </div>
+                
+        </div>
+    </div>
+    <!--about me-->
+    <div class="aboutMe">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="aboutMeHeader">About Me</h2>
+                <p class="info">I am currently a student at <a href="https://www.elevenfifty.org">Eleven Fifty Academy</a> studying to become a junior web 
+                    developer. After nearly 8 years in the healthcare industry as a medical biller and feeling like a number instead of
+                    a person, I decided it was time for a change. I started researching my options and taking personality and aptitude tests
+                    to try and find what new path would make me feel challenged and fulfilled. While discussing this with my husband he mentioned 
+                    a friend of his who had graduated from Eleven Fifty Academy in early 2017 and mentioned it my be something I like. The research started
+                    and 3 months later I was enrolled and starting my new path.<br><br>
+                    My first week was tough, but all it did was solidify in my mind that I had made the right choice. After class I would go home, feed
+                    and play with my little girl until her bed time, and then immerse myself in coding. Hours could pass that I wouldn't even notice until
+                    my husband told me to go to bed.                        
+                    
+                </p>
+            </div>
+        </div>
+
+    </div> 
+    
+    <!--contact form-->
+  <section id="contactForm"></section>
+  <section id="portfolio"></section>
+  <section id="contact">
+   <div class="containerContact">
+     <div class="col-6">
+     <h2 class="text-center text-uppercase">Contact Me</h2>
+       <form action="https://formspree.io/eaperkins34@gmail.com" method="POST">
+         <div class="control-group">
+           <div class="form-group">
+             <label class="formName">Name</label>
+             <input
+               type="text"
+               class="form-control"
+               placeholder="Your Name"
+               id="name"
+               required
+               data-validation-required-message="Please enter your name"
+               name="name"
+               >
+             <p class="help-block text-danger"></p>
+           </div>
+         </div>
+         <div class="control-group">
+           <div class="form-group">
+             <label class ="formEmail">Email Address</label>
+             <input
+               type="email"
+               class="form-control"
+               placeholder="Your Email"
+               id="email"
+               required
+               data-validation-required-message="Please enter your email"
+               name="_replyto"
+             >
+             <p class="help-block text-danger"></p>
+           </div>
+         </div>
+         <div class="control-group" id="message">Message
+           <div class="form-group">
+             <textarea class="formMessage"
+               class="form-control"
+               rows="7"
+               placeholder="Your Message"
+               id="message1"
+               required
+               data-validation-required-message="Please leave a message"
+               name="message"
+             ></textarea>
+             <p class="help-block text-danger"></p>
+           </div>
+         </div>
+         <div class="text-center">
+           <div id="success"></div>
+           <button type="submit" class="btn btn-lg btn-black" id="button">
+             <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+             Send Message
+           </button>
+         </div>
+       </form>
+     </div>
+   </div>
+ </section> 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+</body>
+</html>
