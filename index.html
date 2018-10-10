@@ -13,23 +13,26 @@
 <body>
     <!--nav bar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navStyle">
-                <a class="navbar-brand" href="#" id="navBarStyle">My Portfolio</a>
+                <a class="navbar-brand" href="#" id="navBarStyle">Welcome!</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                   <ul class="navbar-nav" id="listStyle">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Projects <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="#col-12">Projects</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">About Me</a>
+                      <a class="nav-link" href="#aboutMe">About Me</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Contact</a>
+                      <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="https://docs.google.com/document/d/1qacK-U01KtsGkb4yYULR5T6bg8SO6WtqhIGoo5gbNp8/edit">Resume</a>
+                      <a class="nav-link" href="https://docs.google.com/document/d/1qacK-U01KtsGkb4yYULR5T6bg8SO6WtqhIGoo5gbNp8/edit" target="blank">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://www.linkedin.com/in/emily-perkins-95b259165/" target="_blank">LinkedIn</a>
                     </li>
                   </ul>
                 </div>
@@ -37,15 +40,15 @@
     <!--jumbotron-->
     <div class="jumbotron jumbotron-fluid" id="jumboStyle">
     <div class="container">
-        <h1 class="display-4" div class="animation slideInLeft" id="myName">Emily Perkins</h1></div>
-        <p class="lead" id="greeting">Welcome to my page, try not to float off.</p>
+        <h1 class="display-4 animated fadeIn delay" id="myName">Emily Perkins</h1></div>
+        <p class="lead animated fadeIn delay-1s" id="greeting">Welcome to my page, try not to float off.</p>
     </div>
-    </div>
+
     <!-- projects -->
     <div class="containerProjects">
-        <div class="row">
+        <div class="row"><div class ="col-12"><h2 id="col-12">My Projects</h2></div>
             <div class="col-3" id="firstProject">
-                <a href="https://codepen.io/eaperkins34/pen/WgBBjN"><img src="./assets/codepen.jpg" alt="oblina" id="projectPic"><br>Code Pen Creature</a>
+                <a href="https://codepen.io/eaperkins34/pen/WgBBjN" target="_blank"><img src="./assets/codepen.jpg" alt="oblina" id="projectPic"><br>Code Pen Creature</a>
                 </div>
             <div class="col-6" id="secondProject">
                 <a href="https://eaperkins34.github.io/TutorialWebpage/"><img src="./assets/javascript-logo.png" alt="javascript" id="projectPic2"><br>JavaScript Tutorial Webpage</a>
@@ -60,7 +63,7 @@
     <div class="aboutMe">
         <div class="row">
             <div class="col-12">
-                <h2 class="aboutMeHeader">About Me</h2>
+                <h2 id = aboutMe class="aboutMeHeader">About Me</h2>
                 <p class="info">I am currently a student at <a href="https://www.elevenfifty.org">Eleven Fifty Academy</a> studying to become a junior web 
                     developer. After nearly 8 years in the healthcare industry as a medical biller and feeling like a number instead of
                     a person, I decided it was time for a change. I started researching my options and taking personality and aptitude tests
@@ -69,7 +72,7 @@
                     and 3 months later I was enrolled and starting my new path.<br><br>
                     My first week was tough, but all it did was solidify in my mind that I had made the right choice. After class I would go home, feed
                     and play with my little girl until her bed time, and then immerse myself in coding. Hours could pass that I wouldn't even notice until
-                    my husband told me to go to bed. Now a couple weeks into the program and I cannot wait to start this new career. I'm so excitedy to be coding
+                    my husband told me to go to bed. Now a couple weeks into the program and I cannot wait to start this new career. I'm so excited to be coding
                     my future.                         
                     
                 </p>
@@ -82,9 +85,29 @@
   <section id="contactForm"></section>
   <section id="portfolio"></section>
   <section id="contact">
+      <table style="float:right">
+          <tr>
+            <td><img src="./assets/javascript-logo.png"></td>
+            <td><img src="./assets/javascript-logo.png"></td>
+            <td><img src="./assets/javascript-logo.png"></td>
+          </tr>
+          <tr>
+            <td><img src="./assets/javascript-logo.png"></td>
+            <td><img src="./assets/javascript-logo.png"></td>
+            <td><img src="./assets/javascript-logo.png"></td>
+          </tr>
+          <tr>
+              <td><img src="./assets/javascript-logo.png"></td>
+              <td><img src="./assets/javascript-logo.png"></td>
+              <td><img src="./assets/javascript-logo.png"></td>
+            </tr>
+        </table>
+
    <div class="containerContact">
+     
      <div class="col-6">
-     <h2 class="text-center text-uppercase">Contact Me</h2>
+       
+     <h2 class="text-center text-uppercase" id="contact">Contact Me</h2>
        <form action="https://formspree.io/eaperkins34@gmail.com" method="POST">
          <div class="control-group">
            <div class="form-group">
@@ -111,8 +134,7 @@
                id="email"
                required
                data-validation-required-message="Please enter your email"
-               name="_replyto"
-             >
+               name="_replyto">
              <p class="help-block text-danger"></p>
            </div>
          </div>
@@ -139,6 +161,8 @@
          </div>
        </form>
      </div>
+     
+     
    </div>
  </section> 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

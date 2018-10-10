@@ -1,3 +1,19 @@
+.containerProjects {
+    background-color: white;
+    height: 400px;
+    width: 100%;
+    margin-top: 0;
+}
+
+#col-12 {
+    text-align: center;
+    background-color: white;
+    font-size: 50px;
+    color: var(--purple);
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
 #projectPic {
     overflow: hide;
     height: 175px;
@@ -7,8 +23,8 @@
 
 #projectPic2 {
     overflow: hide;
-    height: 150px;
-    width: 250px;
+    height: 175px;
+    width: 290px;
     border-radius: 20%;
 }
 
@@ -18,12 +34,7 @@
     width: 175px;
     border-radius: 50%;
 }
-.containerProjects {
-    background-color: white;
-    height: 300px;
-    width: 100%;
-    margin-top: 0;
-}
+
 
 #firstProject{
     margin-top: 55px;
@@ -32,6 +43,8 @@
 
 #firstProject a{
     color: #6a00b2;
+    font-size: 20px;
+    font-family: var(--font-four);
 }
 
 #secondProject{
@@ -41,6 +54,8 @@
 
 #secondProject a{
     color: #6a00b2;
+    font-size: 20px;
+    font-family: var(--font-four);
 }
 
 #thirdProject{
@@ -50,4 +65,6 @@
 
 #thirdProject a{
     color: #6a00b2;
+    font-size: 20px;
+    font-family: var(--font-four);
 }
