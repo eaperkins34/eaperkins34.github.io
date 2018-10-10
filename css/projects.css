@@ -5,6 +5,19 @@
     border-radius: 50%;
 }
 
+#projectPic2 {
+    overflow: hide;
+    height: 150px;
+    width: 250px;
+    border-radius: 20%;
+}
+
+#projectPic3 {
+    overflow: hide;
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+}
 .containerProjects {
     background-color: white;
     height: 300px;
