@@ -1,0 +1,7 @@
+footer {
+    background: white;
+    text-align: center;
+    font-family: var(--font-four);
+    border-top: 5px solid var(--purple);
+    color: var(--purple);
+}
