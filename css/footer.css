@@ -5,3 +5,37 @@ footer {
     border-top: 5px solid var(--purple);
     color: var(--purple);
 }
+
+#linkedIn-icon {
+    height: 50px;
+    width: 50px;
+    margin-left: 30%;;
+    margin-bottom: 1%;
+}
+
+#facebook-icon {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 1%;
+}
+
+#twitter-icon {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 1%;
+}
+
+#instagram-icon {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 1%;
+    /* background: white;
+    border-radius: 17px;
+    overflow: hidden;  */
+}
+
+#github-icon {
+    height: 50px;
+    width: 50px;
+    margin-bottom: 1%;
+}

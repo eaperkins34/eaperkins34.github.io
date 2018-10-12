@@ -3,17 +3,24 @@ table {
 }
 
 #js {
-    height: 150px;
+    height: 125px;
     width: 250px;
 }
 
 #html {
-    height: 135px;
+    height: 125px;
     width: 145px;
     margin-right: 20px;
 }
 
 #css {
-    height: 135px;
+    height: 125px;
     width: 200px;
+}
+
+#react {
+    height: 125px;
+    width: 250px;
+    margin-top: 10px;
+    
 }

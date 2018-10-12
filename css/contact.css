@@ -1,5 +1,4 @@
 #contactForm {
-    margin-top: 33%;
     font-family: var(--font-four);
     text-align: left;
     color: var(--purple);
@@ -62,7 +61,7 @@ section#contact{
 }
 
 #button{
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     background-color: white;
     border: 2px solid var(--purple);
     color: var(--purple);

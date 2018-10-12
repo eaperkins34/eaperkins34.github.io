@@ -5,6 +5,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-bottom: 5px solid rgb(0,180,98);
+    position: absolute;
+    width: 100%;
+    z-index: 1;
 }
 
 .nav-item {

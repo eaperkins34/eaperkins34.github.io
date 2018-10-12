@@ -2,7 +2,6 @@
     background-color: white;
     height: 400px;
     width: 100%;
-    margin-top: 0;
 }
 
 #projects {
@@ -10,7 +9,7 @@
     background-color: white;
     font-size: 50px;
     color: var(--purple);
-    padding-bottom: 20px;
+    margin-bottom: -10px;;
     padding-top: 10px;
 }
 

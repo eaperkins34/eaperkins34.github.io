@@ -3,10 +3,14 @@
     background-size: cover;
     color: #6a00b2;
     text-align: center;
-    height: 400px;
+    height: 475px;
     font-family: var(--font-four);
     margin-bottom: 0;
-    border-bottom: 5px solid var(--purple) ;
+    border-bottom: 5px solid var(--purple);
+    padding-top: 10px;
+    position: relative;
+    width: 100%;
+    padding-top: 10%;
 }
 
 #greeting {
