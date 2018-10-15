@@ -2,14 +2,13 @@ footer {
     background: white;
     text-align: center;
     font-family: var(--font-four);
-    border-top: 5px solid var(--purple);
-    color: var(--purple);
+    color: black;
 }
 
 #linkedIn-icon {
     height: 50px;
     width: 50px;
-    margin-left: 30%;;
+    margin-left: 32%;;
     margin-bottom: 1%;
 }
 

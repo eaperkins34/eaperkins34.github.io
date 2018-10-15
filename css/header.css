@@ -1,25 +1,24 @@
 #jumboStyle {
-    background: url("../assets/lifeinspace.jpeg") no-repeat center;
+    background: url("../assets/morning.jpg") no-repeat center;
     background-size: cover;
-    color: #6a00b2;
-    text-align: center;
-    height: 475px;
-    font-family: var(--font-four);
+    color: white;
+    text-align: right;
+    height: 400px;
+    font-family: var(--font-three);
     margin-bottom: 0;
-    border-bottom: 5px solid var(--purple);
-    padding-top: 10px;
+    padding-top: 8%;
     position: relative;
     width: 100%;
-    padding-top: 10%;
+
 }
 
 #greeting {
     font-size: 50px;
+    margin-right: 1%;
 }
 
 #myName {
     font-size: 100px;
-    margin-top: 50px;
-    animation-name: fadeIn;
+    margin-right: -17%;
 }
 

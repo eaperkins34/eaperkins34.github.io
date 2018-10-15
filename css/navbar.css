@@ -1,10 +1,8 @@
  #navStyle {
-    background-image: url("../assets/aurora-sky.jpg") !important;
-    font-family: var(--font-three);
-    height: 125px;
+    font-family: var(--font-two);
+    height: 70px;
     background-size: cover;
     background-repeat: no-repeat;
-    border-bottom: 5px solid rgb(0,180,98);
     position: absolute;
     width: 100%;
     z-index: 1;
@@ -14,27 +12,27 @@
     padding-left: 20px;
 }
 #listStyle {
-    margin-left: 50%;
-    margin-top: 5%;
+    margin-left: -2%;
+    margin-top: 1%;
 }
 
 #listStyle a{
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
     position: relative;
-    color: white;
+    color: black;
 }
 
 #listStyle a:hover {
   width: 100%;
   height: 2px;  
-  color: white;
-  font-size: 28px;
+  color: black;
+  font-size: 22px;
 }
 
 
 #navBarStyle {
     font-size: 50px !important;
-    margin-top: 0% !important;
+    margin-top: 1% !important;
     
 }

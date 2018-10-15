@@ -1,21 +1,20 @@
 .aboutMeHeader{
-    font-size: 50px;
+    font-size: 40px;
     padding-top: 10px;
-    border-top: 5px solid rgb(0,180,98) ;
 }
 
 .col-12 {
-    background: var(--purple);
-    color: white;;
+    background: #373737;
+    color: white;
     width: 100%;
     text-align: center;
-    font-family: var(--font-four);
+    font-family: var(--font-two);
 }
 
 .info {
     text-align: center;
-    font-family: var(--font-four);
-    font-size: 30px;
+    font-family: var(--font-two);
+    font-size: 20px;
     color: white;
     margin-top: 0;
   

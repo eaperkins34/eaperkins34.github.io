@@ -1,21 +1,20 @@
 #contactForm {
-    font-family: var(--font-four);
+    font-family: var(--font-one);
     text-align: left;
-    color: var(--purple);
-    border-top: 5px solid white;
+    color: black;
 }
 
 #name{
     width: 100%;
     position: relative;
-    color: var(--purple);
+    color: black;
 }
 #contact {
-    color: var(--purple);
+    color: black;
 }
 .containerContact {
-    background-color: rgb(0,180,98);
-    font-family: var(--font-four);
+    background-color: white;
+    font-family: var(--font-one);
     width: 100%;  
     padding-top: 20px;  
 }
@@ -27,20 +26,20 @@
 .formName {
     width: 10%;
     float: left;
-    font-size: 25px;
-    color: var(--purple);
+    font-size: 20px;
+    color: black;
 }
 
 .formEmail {
     width: 20%;
     float: left;
-    font-size: 25px;
-    color: var(--purple);
+    font-size: 20px;
+    color: black;
 }
 
 #email{
     width: 100%;
-    color: var(--purple);
+    color: black;
 }
 
 .formMessage{
@@ -48,8 +47,8 @@
 }
 
 #message{
-    font-size: 25px;
-    color: var(--purple);
+    font-size: 20px;
+    color: black;
 }
 
 #message1{
@@ -63,10 +62,6 @@ section#contact{
 #button{
     margin-bottom: 5%;
     background-color: white;
-    border: 2px solid var(--purple);
-    color: var(--purple);
-}
-
-#button a:hover {
-    background: rgb(0,180,98);
+    border: 2px solid black;
+    color: black;
 }

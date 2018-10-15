@@ -1,69 +1,68 @@
 .containerProjects {
     background-color: white;
-    height: 400px;
+    height: 300px;
     width: 100%;
 }
 
 #projects {
     text-align: center;
     background-color: white;
-    font-size: 50px;
-    color: var(--purple);
-    margin-bottom: -10px;;
+    font-size: 40px;
+    color: #373737;
+    margin-bottom: -10px;
     padding-top: 10px;
 }
 
 #projectPic {
     overflow: hide;
-    height: 175px;
-    width: 175px;
-    border-radius: 50%;
+    height: 145px;
+    width: 145px;
+    border-radius: 5px;
 }
 
 #projectPic2 {
     overflow: hide;
-    height: 175px;
-    width: 290px;
-    border-radius: 20%;
+    height: 145px;
+    width: 240px;
+
 }
 
 #projectPic3 {
     overflow: hide;
-    height: 175px;
-    width: 175px;
-    border-radius: 50%;
+    height: 145px;
+    width: 140px;
 }
 
 
 #firstProject{
-    margin-top: 55px;
+    margin-top: 45px;
     text-align: center;
 }
 
 #firstProject a{
-    color: #6a00b2;
+    color: black;
     font-size: 20px;
-    font-family: var(--font-four);
+    font-family: var(--font-two);
 }
 
 #secondProject{
     text-align: center;
-    margin-top: 55px;
+    margin-top: 45px;
 }
 
 #secondProject a{
-    color: #6a00b2;
+    color: black;
     font-size: 20px;
-    font-family: var(--font-four);
+    font-family: var(--font-two);
 }
 
 #thirdProject{
-    margin-top: 55px;
+    margin-top: 45px;
     text-align: center;
 }
 
 #thirdProject a{
-    color: #6a00b2;
+    color: black;
     font-size: 20px;
-    font-family: var(--font-four);
+    font-family: var(--font-two);
 }
