@@ -1,10 +1,12 @@
 .containerProjects {
     background-color: white;
-    height: 300px;
     width: 100%;
 }
 
-#projects {
+.aboutMe {
+    box-shadow: 5px 5px;
+}
+.projects {
     text-align: center;
     background-color: white;
     font-size: 40px;

@@ -12,6 +12,11 @@
 #contact {
     color: black;
 }
+
+.col-12 {
+    background: white;
+} 
+
 .containerContact {
     background-color: white;
     font-family: var(--font-one);
@@ -54,6 +59,7 @@
 #message1{
     font-size: 17px;
     border-radius: 5px;
+    padding-top: 5px;
 }
 section#contact{
     width: 100%;
