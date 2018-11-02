@@ -1,5 +1,6 @@
 #jumboStyle {
     background: url("../assets/morning.jpg") no-repeat center;
+    opacity: 0.7;
     background-size: cover;
     color: white;
     text-align: right;
