@@ -3,40 +3,41 @@ footer {
     text-align: center;
     font-family: var(--font-four);
     color: black;
+    width: 100%;
 }
 
 #linkedIn-icon {
-    height: 50px;
-    width: 50px;
-    margin-left: 32%;;
-    margin-bottom: 1%;
+    height: 3vw;
+    width: 3vw;
+    margin-left: 16vw;
+    margin-bottom: 0.5vw;
 }
 
 #facebook-icon {
-    height: 50px;
-    width: 50px;
-    margin-bottom: 1%;
+    height: 3vw;
+    width: 3vw;
+    margin-bottom: 0.5vw;
 }
 
 #twitter-icon {
-    height: 50px;
-    width: 50px;
-    margin-bottom: 1%;
+    height: 3vw;
+    width: 3vw;
+    margin-bottom: 0.5vw
 }
 
 #instagram-icon {
-    height: 50px;
-    width: 50px;
-    margin-bottom: 1%;
+    height: 3vw;
+    width: 3vw;
+    margin-bottom: 0.5vw
     /* background: white;
     border-radius: 17px;
     overflow: hidden;  */
 }
 
 #github-icon {
-    height: 50px;
-    width: 50px;
-    margin-bottom: 1%;
+    height: 3vw;
+    width: 3vw;
+    margin-bottom: 0.5vw
 }
 
 .footerLink a{
